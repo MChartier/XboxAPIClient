@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxAPIClient", "XboxAPIClient\XboxAPIClient.csproj", "{68394A0D-D315-4555-9441-28E40973CE3E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA3F34AD-D984-4D27-BBA0-DECB03FFD08F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XboxAPIClient", "src\XboxAPIClient\XboxAPIClient.csproj", "{F6E58119-A658-4544-B957-53DFAEB92061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9E7A3F2D-10C1-4EF3-B4C8-CE60922AB40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxAPIClient.UnitTests", "test\XboxAPIClient.UnitTests\XboxAPIClient.UnitTests.csproj", "{A7A82B45-CA80-47A4-B575-56A6FE412BF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +17,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68394A0D-D315-4555-9441-28E40973CE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68394A0D-D315-4555-9441-28E40973CE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68394A0D-D315-4555-9441-28E40973CE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68394A0D-D315-4555-9441-28E40973CE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E58119-A658-4544-B957-53DFAEB92061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E58119-A658-4544-B957-53DFAEB92061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E58119-A658-4544-B957-53DFAEB92061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E58119-A658-4544-B957-53DFAEB92061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A82B45-CA80-47A4-B575-56A6FE412BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A82B45-CA80-47A4-B575-56A6FE412BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A82B45-CA80-47A4-B575-56A6FE412BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A82B45-CA80-47A4-B575-56A6FE412BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6E58119-A658-4544-B957-53DFAEB92061} = {BA3F34AD-D984-4D27-BBA0-DECB03FFD08F}
+		{A7A82B45-CA80-47A4-B575-56A6FE412BF2} = {9E7A3F2D-10C1-4EF3-B4C8-CE60922AB40B}
 	EndGlobalSection
 EndGlobal
