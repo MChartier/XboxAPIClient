@@ -7,11 +7,11 @@ using XboxAPIClient.Models.V2;
 namespace XboxAPIClient
 {
     /// <summary>
-    /// Client wrapper for the unofficial XboxAPI hosted at http://www.xboxapi.com/.
+    /// Client wrapper for the unofficial XboxAPI hosted at https://xboxapi.com/.
     /// </summary>
     public class XboxAPI
     {
-        private const string baseUrl = "http://www.xboxapi.com/";
+        private const string baseUrl = "https://xboxapi.com/";
 
         private string apiKey;
 
